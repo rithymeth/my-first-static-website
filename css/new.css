@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.right-navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.header div {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+
+.search {
+  width: 360px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.search input {
+  width: 280px;
+  padding: 10px;
+}
+
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.navigation a:hover{
+  color: blue;
+}
+
+.nav-home {
+  padding: 0.3rem 1rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #374151;
+}
+
+.nav-not-home {
+  display: inline-block;
+  text-decoration: none;
+  color: #374151;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.active{
+  color: #0EA5E9;
+  background-color: #EDE9FE;
+}
+.bx-hr{
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 0;
+}
+.bx-hr a {
+  text-decoration: none;
+  justify-content: space-between;
+  margin-left: 1rem;
+  color: #424949;
+  font-weight: bold;
+}
+.bx-hr p{
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+
+.container-all{
+  background-color: #ecf0f1;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+.contain-left{
+  width: 70%;
+  margin-bottom: 1rem;
+}
+.contain-left hr{
+  margin-top: 1rem;
+  color: blue;
+}
+.bx{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+.bx div{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.contain-left div{
+  text-align: justify;
+}
+.contain-right{
+  width:25%;
+  margin-top: 30px;
+}
+hr{
+  margin-left: 25px;
+}
+
+/* Footer */
+.contain{
+  width: 90%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+.contain h3{
+  font-weight: normal;
+}
+.contain input{
+  width: 340px;
+  height: 35px;
+  outline: none;
+  padding-left: 10px;
+}
+.contain button{
+  width: 150px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+}
+.link{
+  text-decoration: none;
+}
